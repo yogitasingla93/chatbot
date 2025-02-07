@@ -1,5 +1,5 @@
 AI Chat Interface - Senior React Developer Challenge 🚀
-A modern AI-powered chat interface built using React, TypeScript, Zustand, and OpenAI API. This project supports real-time messaging, speech recognition, theme switching, quick replies, and Docker deployment.
+A modern AI-powered chat interface built using React, TypeScript, Zustand, and gemini API. This project supports real-time messaging, speech recognition, theme switching, quick replies, and Docker deployment.
 
 🔗 GitHub Repo: https://github.com/yogitasingla93/chatbot
 🐳 Docker Hub Image: https://hub.docker.com/r/yogitasingla/my-chatbot
@@ -17,18 +17,19 @@ A modern AI-powered chat interface built using React, TypeScript, Zustand, and O
 bash
 Copy
 Edit
-📂 chatbot
+📂chatbot
 ├── src/
-│   ├── components/  # UI Components (ChatMessage, ChatInput, Header, SettingsPanel)
-│   ├── store/       # Zustand state management
-│   ├── services/    # AI API integration
-│   ├── types/       # TypeScript type definitions
-├── Dockerfile       # Docker build configuration
-├── docker-compose.yml  # Docker Compose setup
-└── README.md        # Documentation & setup instructions
+│   ├── components/
+│   ├── store/
+│   ├── services/
+│   ├── types/
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+
 🛠 Tech Stack
 Frontend: React (Vite), TypeScript, Zustand, TailwindCSS
-AI Integration: OpenAI API (ChatGPT)
+AI Integration: Gemini API (google)
 Speech Recognition: Browser API
 State Management: Zustand
 Deployment: Docker
@@ -61,7 +62,7 @@ docker-compose up --build
 ⚙️ Implementation Details
 ✅ React with TypeScript for type safety & scalability
 ✅ Zustand for state management (lightweight & efficient)
-✅ OpenAI API for AI-generated responses
+✅ Gemini API for AI-generated responses
 ✅ Browser API for Speech Recognition
 ✅ TailwindCSS for a clean & responsive UI
 ✅ Docker for easy deployment & scaling
